@@ -17,7 +17,8 @@
 
         .r-porfolio{
             .tituloSectionporfolio{
-                @include encabezados ($color-rosa);
+                font-family:$title-font;
+                color:$color-rosa;
 
             }
             .galeriaContenedor{

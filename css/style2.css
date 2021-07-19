@@ -1,0 +1,84 @@
+
+ 
+
+/* ----------------------------------------------------------------------- Hola!------------------------------------------------------------------- */
+.containerHola{
+    height: 100vh;
+    width: 100%;
+}
+.elena{
+    color: #343957;
+    margin-left: 10px;
+    font-size: 70px;
+    font-family: "galeano";
+    display: flex;
+    justify-content: flex-start;
+}
+.bloquetitulo{
+    display: flex;
+    align-items: baseline
+}
+.holaTxt{
+    margin-top:50px ;
+    color: #343957;
+    margin: 0 0 20px 10px;
+    font-size: 20px;
+    font-family:"champagnefont";
+}
+/* ------------------------------------------------------------------------Porfolio---------------------------------------------------------------- */ 
+col {
+    margin: 0;
+    padding: 0;
+}
+.porfolioContainer{
+    height: 100vh;
+    width: 100%;
+}
+.galleryItem{
+    width: 250px;
+    height: auto;
+}
+.porfolioC{
+    padding-top: 100px;
+}
+.galeriaContenedor{
+     background-color: rgba(0, 255, 255, 0.138);
+}
+.galeriaContenedor img{
+    width: 100%;
+    height: 350px;
+}
+.galeriaContenedor img:hover{
+    transform: scale(1.05);
+    height: 250px;
+    z-index: 1;
+}
+
+/* ----------------------------------------------------------------------- Servicios--------------------------------------------------------------- */
+.serviciosContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff; 
+}
+.serviciosItems{
+    color: #343957;
+}
+/* ------------------------------------------------------------------------Promos ----------------------------------------------------------------- */
+.promosContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: #dadbdd; 
+}
+/* ------------------------------------------------------------------------Contacto --------------------------------------------------------------- */
+.contactoContainer{
+    height: 90vh;
+    width: 100%;
+    background-color: #112dce; 
+}
+/* ------------------------------------------------------------------------FOOTER --------------------------------------------------------------- */
+footer{
+    height: 20vh;
+    width: 100%;
+    background-color: #009d3c; 
+}
+

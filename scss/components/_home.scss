@@ -16,14 +16,15 @@ main{
                 .parrafoHome{
                     margin:10em 0 0 0;
                     padding:0;
-                    
+                    color:$color-gris;
                     
     
                     .renglonUno{
                         font-family:$lectura-font;
-                        font-size: 1.5em;
                         color:$color-gris;
+                        font-size: 1.5em;
                         margin: 0;
+
                         &::after{
                             content: "★";
                             color:$color-rosa;
