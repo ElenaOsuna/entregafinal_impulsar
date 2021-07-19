@@ -79,21 +79,25 @@ main .containerHome .contAll .homeMain .parrafoHome .renglonUno::after {
 }
 main .containerHome .contAll .homeMain .parrafoHome .renglonDos {
   font-family: "lemonbold";
+  color: #343957;
   font-size: 2.3em;
   margin: 0;
 }
 main .containerHome .contAll .homeMain .parrafoHome .renglonTres {
   font-family: "lemonregular";
+  color: #343957;
   font-size: 2.3em;
   margin: 0;
 }
 main .containerHome .contAll .homeMain .parrafoHome .renglonCuatro {
   font-family: "lemonbold";
+  color: #343957;
   font-size: 2.3em;
   margin: 0;
 }
 main .containerHome .contAll .homeMain .parrafoHome .renglonCinco {
   font-family: "lemonregular";
+  color: #343957;
   font-size: 2.3em;
   margin: 0;
 }
