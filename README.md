@@ -1,5 +1,6 @@
 # entregafinal_impulsar
-proyecto de desarrollo web
+proyecto de desarrollo web // en caso de descargar el repositorio, tener en cuenta que una de las herramientas utilizadas en su desarrollo del sitio es SASS
+
 <h1 align="center">Hi 👋, I'm Elena Osuna</h1>
 <h3 align="center">Graphic Design is my passion</h3>
 
