@@ -135,7 +135,7 @@ main .containerHome .contAll .btnWhatsapp {
 
 .containerHola {
   background-color: #e5e5ef;
-  padding: 10em 0 3em;
+  padding: 7em 0 3em;
 }
 .containerHola .row {
   margin: 0;
@@ -145,8 +145,8 @@ main .containerHome .contAll .btnWhatsapp {
   justify-content: center;
   width: 100%;
   font-family: "galeano";
+  padding: 0 0 1em 0;
   color: #FF069F;
-  padding-bottom: 1em;
 }
 .containerHola .row .contenedorItems {
   background-color: #FF069F;
@@ -193,7 +193,11 @@ main .containerHome .contAll .btnWhatsapp {
   height: auto;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .tituloSectionporfolio {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   font-family: "galeano";
+  padding: 0;
   color: #FF069F;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso .tituloSectionimpreso {
@@ -262,10 +266,12 @@ main .containerHome .contAll .btnWhatsapp {
   padding-bottom: 2em;
 }
 .containerServicios .containerItemsServicios .r-Servicios .tituloSectionservicios {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   font-family: "galeano";
-  padding-bottom: 1em;
+  padding: 0 0 1em 0;
   color: #fff;
-  width: auto;
 }
 
 .containerPromo {
@@ -277,15 +283,19 @@ main .containerHome .contAll .btnWhatsapp {
   align-items: center;
 }
 .containerPromo .containerItemsPromo {
-  margin-bottom: 7.5em;
+  margin-bottom: 5.5em;
 }
 .containerPromo .containerItemsPromo .tituloSectionPromo {
-  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   font-family: "galeano";
+  padding: 2em 0 0 0;
   color: #FF069F;
 }
 .containerPromo .containerItemsPromo .bajadadeTitulo {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
   color: #343957;
 }
 
