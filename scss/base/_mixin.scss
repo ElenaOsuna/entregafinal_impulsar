@@ -1,0 +1,10 @@
+//parametros en mixin//
+@mixin encabezados ($color, $padding){
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family:$title-font;
+    padding: $padding;
+    color:$color;
+}
+
