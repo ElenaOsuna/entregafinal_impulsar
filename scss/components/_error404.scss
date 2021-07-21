@@ -1,13 +1,26 @@
 .error404{
-    
-    margin:auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h1{
-        color:$color-rosa;
-        margin-top: 1em;
-        font-family:$fontDeco2;
+    width:100%;
+    margin: 0 auto;
+
+    .errorItems{
+        width:100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        }
+        .gatito404{
+            color: green;
+            margin: auto;
+           
+
+            h1{
+                color:$color-rosa;
+                margin: auto;
+                font-family:$fontDeco2;
+        }
+
     }
+
 }
