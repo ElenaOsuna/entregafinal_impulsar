@@ -248,10 +248,10 @@ main .containerHome .contAll .btnWhatsapp {
   align-items: center;
 }
 .containerPorfolio .containerItemsPorfolio {
-  height: auto;
+  height: 90%;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio {
-  background-color: steelblue;
+  margin: 0 auto;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .tituloSectionporfolio {
   display: flex;
@@ -265,6 +265,12 @@ main .containerHome .contAll .btnWhatsapp {
   background-color: tomato;
   margin: 0 auto;
   padding-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso {
+  background-color: steelblue;
+  margin: 0 auto;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso .tituloSectionimpreso {
   color: #343957;
@@ -284,6 +290,10 @@ main .containerHome .contAll .btnWhatsapp {
   height: 250px;
   z-index: 1;
 }
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-redes {
+  background-color: #63cc26;
+  margin: 0 auto;
+}
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-redes .tituloSectionredes {
   color: #343957;
   font-family: "galeano";
@@ -301,6 +311,10 @@ main .containerHome .contAll .btnWhatsapp {
   transform: scale(1.05);
   height: 250px;
   z-index: 1;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-web {
+  background-color: #b80d8d;
+  margin: 0 auto;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-web .tituloSectionweb {
   color: #343957;

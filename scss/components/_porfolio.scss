@@ -12,10 +12,10 @@
 
 
     .containerItemsPorfolio{
-        height: auto;
+        height: 90%;
 
         .r-porfolio{
-            background-color: steelblue;
+            margin: 0 auto;
             .tituloSectionporfolio{
                  @include encabezados($color-rosa, 0);
 
@@ -24,7 +24,13 @@
                 background-color: tomato;
                 margin: 0 auto;
                 padding-bottom: 3em;
+                display: flex;
+                flex-direction: column;
+                
+
                 .r-impreso{
+                    background-color: steelblue;
+                    margin: 0 auto;
                     .tituloSectionimpreso{
                         color:$color-gris;
                         font-family:$title-font;
@@ -50,6 +56,8 @@
                     }
                 }
                 .r-redes{
+                    background-color: rgb(99, 204, 38);
+                    margin: 0 auto;
                     .tituloSectionredes{
                         color:$color-gris;
                         font-family:$title-font;
@@ -73,6 +81,8 @@
                     }
                 }
                 .r-web{
+                    background-color: rgb(184, 13, 141);
+                    margin: 0 auto;
                     .tituloSectionweb{
                         color:$color-gris;
                         font-family:$title-font;
