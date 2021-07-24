@@ -126,9 +126,9 @@ main .containerHome .contAll .btnWhatsapp {
   background-position: center;
   background-size: cover;
   object-fit: contain;
-  width: 5em;
-  height: 5em;
-  right: 40px;
+  width: 4em;
+  height: 4em;
+  right: 30px;
   bottom: 60px;
   z-index: 1;
 }
@@ -389,24 +389,17 @@ footer .footerContainerItems .reDes {
 }
 
 .errorItems {
-  background-image: url("../img/error404.jpg");
-  background-repeat: no-repeat;
   width: 100%;
-  padding: 10em;
-  background-position: center;
-  background-size: cover;
-  object-fit: contain;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  margin: 0 auto;
 }
 .errorItems .contentError {
   display: flex;
-  padding: 50px;
 }
 .errorItems .contentError .gatito404 {
   width: 100%;
-  margin: 0 250px 0 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .errorItems .contentError .gatito404 h1 {
   color: #FF069F;
