@@ -1,0 +1,21 @@
+  /////////////////////////// MEDIA QUERIES////////////////////////////////////////////
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-width : 320px) and (max-width : 480px) {
+       /* Styles */
+       main{
+        .containerHome{
+           height:auto;
+  }
+
+  /* @MEDIA PARA VERSION TABLETS, IPAD*/
+  @media (min-width:768px) {
+       /* Styles */
+  }
+
+  
+  
+  /* @MEDIA PARA VERSION ESCRITORIO, LAPTOP, PC*/
+  @media (min-width:1024px) {
+       /* Styles */
+  }
