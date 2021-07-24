@@ -5,6 +5,22 @@
     padding-top: 30px;
     justify-content:center;
     align-items: center;
+    @media screen and (min-width : 320px) and (max-width : 480px) {
+        /* Styles */
+        padding: 60em auto;
+      }
+   /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-width : 768px) and (max-width : 1024px) {
+        /* Styles */
+        margin: auto;
+    }
+  
+    /* Desktops and laptops ----------- */
+    @media only screen and (min-width : 1224px) {
+        /* Styles */
+        
+    }
+    
     .containerItemsPromo{
         margin-bottom: 5.5em;
         
@@ -20,4 +36,5 @@
         }
 
     }
+
 }

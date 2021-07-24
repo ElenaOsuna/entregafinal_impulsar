@@ -9,6 +9,12 @@ main{
         background-size:cover;
         object-fit: contain; 
 
+        @media screen and (min-width : 320px) and (max-width : 480px) {
+            /* Styles */
+            background-color:$color-rosa;
+            background-image:none;
+
+        } 
         .contAll{
 
             .homeMain{
@@ -16,7 +22,7 @@ main{
                 .parrafoHome{
                     margin:10em 0 0 0;
                     padding:0;
-                    color:$color-gris;
+                    color:$color-gris; 
                     
     
                     .renglonUno{
@@ -28,6 +34,10 @@ main{
                         &::after{
                             content: "★";
                             color:$color-rosa;
+                            @media screen and (min-width : 320px) and (max-width : 480px) {
+                                /* Styles */
+                                color:$color-blanco;
+                            } 
     
                         }
                     }
@@ -70,10 +80,16 @@ main{
                         display: block;
                         width: 150px;
                         text-align: center;
+                        @media screen and (min-width : 320px) and (max-width : 480px) {
+                            /* Styles */
+                            background-color:$color-blanco;
+                            color:$color-gris;
+                        }
                         &:hover{
                             color: #fff;
                             background-color: #343957;
                         }
+                        
     
                         
     
@@ -83,6 +99,7 @@ main{
     
     
                 }
+          
             }
             .btnWhatsapp{
                 position: fixed;

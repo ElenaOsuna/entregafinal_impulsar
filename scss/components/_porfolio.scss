@@ -12,7 +12,15 @@
 
 
     .containerItemsPorfolio{
+        margin:auto;
         height: 90%;
+
+        @media screen and (min-width : 320px) and (max-width : 560px) {
+            /* Styles */
+            align-items: center;
+            margin: auto;
+        }
+        
 
         .r-porfolio{
             margin: 0 auto;

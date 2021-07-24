@@ -63,6 +63,13 @@ main .containerHome {
   background-size: cover;
   object-fit: contain;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  main .containerHome {
+    /* Styles */
+    background-color: #FF069F;
+    background-image: none;
+  }
+}
 main .containerHome .contAll .homeMain .parrafoHome {
   margin: 10em 0 0 0;
   padding: 0;
@@ -77,6 +84,12 @@ main .containerHome .contAll .homeMain .parrafoHome .renglonUno {
 main .containerHome .contAll .homeMain .parrafoHome .renglonUno::after {
   content: "★";
   color: #FF069F;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  main .containerHome .contAll .homeMain .parrafoHome .renglonUno::after {
+    /* Styles */
+    color: #fff;
+  }
 }
 main .containerHome .contAll .homeMain .parrafoHome .renglonDos {
   font-family: "lemonbold";
@@ -114,6 +127,13 @@ main .containerHome .contAll .homeMain .parrafoHome .contacTanos {
   display: block;
   width: 150px;
   text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  main .containerHome .contAll .homeMain .parrafoHome .contacTanos {
+    /* Styles */
+    background-color: #fff;
+    color: #343957;
+  }
 }
 main .containerHome .contAll .homeMain .parrafoHome .contacTanos:hover {
   color: #fff;
@@ -189,7 +209,15 @@ main .containerHome .contAll .btnWhatsapp {
   align-items: center;
 }
 .containerPorfolio .containerItemsPorfolio {
+  margin: auto;
   height: 90%;
+}
+@media screen and (min-width: 320px) and (max-width: 560px) {
+  .containerPorfolio .containerItemsPorfolio {
+    /* Styles */
+    align-items: center;
+    margin: auto;
+  }
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio {
   margin: 0 auto;
@@ -277,6 +305,27 @@ main .containerHome .contAll .btnWhatsapp {
   width: 100%;
   margin: auto;
   background-color: #FF069F;
+  /* iPads (portrait and landscape) ----------- */
+  /* Desktops and laptops ----------- */
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .containerServicios {
+    /* Styles */
+    padding-top: 10em auto;
+    background-color: #343957;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .containerServicios {
+    /* Styles */
+    background-color: #FF069F;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  .containerServicios {
+    /* Styles */
+    background-color: #FF069F;
+  }
 }
 .containerServicios .containerItemsServicios {
   margin: 0 auto 1.8em;
@@ -298,6 +347,25 @@ main .containerHome .contAll .btnWhatsapp {
   padding-top: 30px;
   justify-content: center;
   align-items: center;
+  /* iPads (portrait and landscape) ----------- */
+  /* Desktops and laptops ----------- */
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .containerPromo {
+    /* Styles */
+    padding: 60em auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .containerPromo {
+    /* Styles */
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  .containerPromo {
+    /* Styles */
+  }
 }
 .containerPromo .containerItemsPromo {
   margin-bottom: 5.5em;
