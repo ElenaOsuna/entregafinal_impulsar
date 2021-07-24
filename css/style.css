@@ -11,6 +11,31 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   /* Styles */
+  .error404 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .error404 .errorItems {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .error404 .gatito404 {
+    color: black;
+    margin: auto;
+    background-image: url("../img/error-404-celular.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+  }
+  .error404 .gatito404 h1 {
+    color: #FF069F;
+    margin: auto;
+    font-family: "lemonregular";
+  }
 }
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
@@ -38,10 +63,6 @@
 }
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
-  /* Styles */
-}
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-pixel-ratio: 1.5), only screen and (min-pixel-ratio: 1.5) {
   /* Styles */
 }
 /*FONTS --------------------------------------------------------------------------------*/
@@ -227,8 +248,8 @@ main .containerHome .contAll .btnWhatsapp {
   align-items: center;
 }
 .containerPorfolio .containerItemsPorfolio {
-  margin: 20px;
   height: auto;
+  background-color: salmon;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .tituloSectionporfolio {
   display: flex;
@@ -237,6 +258,12 @@ main .containerHome .contAll .btnWhatsapp {
   font-family: "galeano";
   padding: 0;
   color: #FF069F;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor {
+  margin: 0 auto 50px;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso {
+  background-color: slateblue;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso .tituloSectionimpreso {
   color: #343957;
@@ -409,25 +436,31 @@ footer .footerContainerItems .reDes {
   padding: 1em 0 0;
 }
 
-.error404 {
+.errorItems {
+  background-image: url("../img/error404.jpg");
+  background-repeat: no-repeat;
   width: 100%;
-  margin: 0 auto;
-}
-.error404 .errorItems {
-  width: 100%;
-  margin: 0 auto;
+  padding: 10em;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
 }
-.error404 .gatito404 {
-  color: green;
-  margin: auto;
+.errorItems .contentError {
+  display: flex;
+  padding: 50px;
 }
-.error404 .gatito404 h1 {
+.errorItems .contentError .gatito404 {
+  width: 100%;
+  margin: 0 250px 0 0;
+}
+.errorItems .contentError .gatito404 h1 {
   color: #FF069F;
-  margin: auto;
+  font-size: 2em;
   font-family: "lemonregular";
+  background-color: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

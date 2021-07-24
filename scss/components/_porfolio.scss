@@ -12,8 +12,8 @@
 
 
     .containerItemsPorfolio{
-        margin: 20px;
         height: auto;
+        background-color: salmon;
 
         .r-porfolio{
             .tituloSectionporfolio{
@@ -21,7 +21,9 @@
 
             }
             .galeriaContenedor{
+                margin: 0 auto 50px;
                 .r-impreso{
+                    background-color: slateblue;
                     .tituloSectionimpreso{
                         color:$color-gris;
                         font-family:$title-font;

@@ -1,26 +1,32 @@
-.error404{
-    width:100%;
-    margin: 0 auto;
+.errorItems{
+    background-image: url("../img/error404.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10em;
+    background-position: center;
+    background-size:cover;
+    object-fit: contain;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
 
-    .errorItems{
-        width:100%;
-        margin: 0 auto;
+    .contentError{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        padding: 50px;
 
-        }
         .gatito404{
-            color: green;
-            margin: auto;
-           
-
+            width: 100%;
+            margin: 0 250px 0 0;
+            
+            
             h1{
                 color:$color-rosa;
-                margin: auto;
+                font-size: 2em;
                 font-family:$fontDeco2;
+                background-color: red($color: #000000);
+
+            }
+
         }
-
     }
-
 }
