@@ -13,17 +13,18 @@
 
     .containerItemsPorfolio{
         height: auto;
-        background-color: salmon;
 
         .r-porfolio{
+            background-color: steelblue;
             .tituloSectionporfolio{
                  @include encabezados($color-rosa, 0);
 
             }
             .galeriaContenedor{
-                margin: 0 auto 50px;
+                background-color: tomato;
+                margin: 0 auto;
+                padding-bottom: 3em;
                 .r-impreso{
-                    background-color: slateblue;
                     .tituloSectionimpreso{
                         color:$color-gris;
                         font-family:$title-font;

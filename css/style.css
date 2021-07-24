@@ -249,7 +249,9 @@ main .containerHome .contAll .btnWhatsapp {
 }
 .containerPorfolio .containerItemsPorfolio {
   height: auto;
-  background-color: salmon;
+}
+.containerPorfolio .containerItemsPorfolio .r-porfolio {
+  background-color: steelblue;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .tituloSectionporfolio {
   display: flex;
@@ -260,10 +262,9 @@ main .containerHome .contAll .btnWhatsapp {
   color: #FF069F;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor {
-  margin: 0 auto 50px;
-}
-.containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso {
-  background-color: slateblue;
+  background-color: tomato;
+  margin: 0 auto;
+  padding-bottom: 3em;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso .tituloSectionimpreso {
   color: #343957;
