@@ -262,14 +262,12 @@ main .containerHome .contAll .btnWhatsapp {
   color: #FF069F;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor {
-  background-color: tomato;
   margin: 0 auto;
   padding-bottom: 3em;
   display: flex;
   flex-direction: column;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso {
-  background-color: steelblue;
   margin: 0 auto;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-impreso .tituloSectionimpreso {
@@ -291,7 +289,6 @@ main .containerHome .contAll .btnWhatsapp {
   z-index: 1;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-redes {
-  background-color: #63cc26;
   margin: 0 auto;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-redes .tituloSectionredes {
@@ -313,7 +310,6 @@ main .containerHome .contAll .btnWhatsapp {
   z-index: 1;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-web {
-  background-color: #b80d8d;
   margin: 0 auto;
 }
 .containerPorfolio .containerItemsPorfolio .r-porfolio .galeriaContenedor .r-web .tituloSectionweb {
